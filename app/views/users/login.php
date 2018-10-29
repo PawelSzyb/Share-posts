@@ -2,6 +2,7 @@
   <div class="row mb-5">
     <div class="col-md-6 mx-auto">
       <div class="card card-body bg-light mt-5">
+        <?php flash('register_success'); ?>
         <h2 class="text-center">Log in</h2>
         <p class="mt-3">Please fill in your credentials to login</p>
         <form action="<?php echo URLROOT; ?>/users/login" method="POST">
