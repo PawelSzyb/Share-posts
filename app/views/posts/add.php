@@ -15,7 +15,6 @@
         <span class="invalid-feedback"><?php echo $data['body_err']; ?></span>
       </div>
       <button type="submit" class="btn btn-success"><i class="fas fa-check mr-2"></i>Submit</button>
-      <a href="<?php echo URLROOT; ?>/posts" class="btn btn-dark"><i class="fas fa-backward mr-2"></i>Back</a>
     </form>
   </div>
 <?php require APPROOT . "/views/inc/footer.php"; ?>
